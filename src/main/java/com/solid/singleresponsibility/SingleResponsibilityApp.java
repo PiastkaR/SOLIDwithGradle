@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class SingleResponsibilityApp {
+    ///tightly coupled to Employee! need to get rid of this!!!////
     public static void main(String[] args) {
         Employee peggy = new Employee(1, "peggy","accounting", true);
         SingleResponsibilityApp.hireNewEmployee(peggy);

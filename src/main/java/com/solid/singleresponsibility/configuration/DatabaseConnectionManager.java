@@ -12,7 +12,6 @@ public class DatabaseConnectionManager {
 
     private static DatabaseConnectionManager connectionInstance = new DatabaseConnectionManager();
 
-
     public DatabaseConnectionManager () {}
 
     public static DatabaseConnectionManager getManagerInstance() {

@@ -9,7 +9,6 @@ public class ReportFormatter {
     private String formattedOutput;
 
     public ReportFormatter(Object object, FormatType formatType) {
-
         switch (formatType) {
             case XML:
                 formattedOutput = convertObjectToXML(object);
@@ -18,7 +17,6 @@ public class ReportFormatter {
                 formattedOutput = convertObjectToCSV(object);
                 break;
         }
-
     }
 
     private String convertObjectToXML(Object object) {
