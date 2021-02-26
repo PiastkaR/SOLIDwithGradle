@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @RequiredArgsConstructor
 @Slf4j
-public class Projector implements Device {
+public class Projector implements Device { //SINGLETON PATTERN:
 
     public void project() {
         log.info("Projector is projecting...");
