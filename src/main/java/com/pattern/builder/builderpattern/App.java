@@ -30,7 +30,7 @@ public class App {
         System.out.println("Car2: " + vehicleBuilder);
 
         vehicle.toBuilder()
-                .model("XC`150`")
+                .model("XC150")
                 .type("Car1 changed by toBuilder")
                 .color("123")
                 .price(123123)
