@@ -1,6 +1,5 @@
-package com.training;
+package com.training.domain;
 
-import com.training.domain.*;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
